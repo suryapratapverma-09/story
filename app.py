@@ -6,8 +6,8 @@ import os
 from PIL import Image #python image library
 import google.generativeai as genai 
 
-#genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
-genai.configure(api_key="AIzaSyB7GKVgv8B3nv7x-z9su4UDY_yKVKC9rzQ")
+genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+#genai.configure(api_key="AIzaSyB7GKVgv8B3nv7x-z9su4UDY_yKVKC9rzQ")
 
 model= genai.GenerativeModel('gemini-pro-vision')
 
