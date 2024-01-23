@@ -38,7 +38,7 @@ if uploaded_file is not None:
 sub = st.button('generate story')
 
 input_prompt = """you are expert in understanding feelings or emotion.
-we will upload an image and you will have to make conversational story using 500 words based 
+we will upload an image and you will have to make conversational story within 500 words based 
 on the uploded image with using given input and give abstract of story in bold"""
 
 input_prompt1="""Give story title based on image"""
